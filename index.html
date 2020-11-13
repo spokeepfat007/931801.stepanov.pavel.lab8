@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frontend Task №9</title>
+    <link rel="stylesheet" href="Styles/index.css">
+</head>
+<body>
+<div id="wracked">
+    <div>
+        <input type="text">
+        <input type="text">
+        <button type="button" onclick="up(this)">&#8593</button>
+        <button type="button" onclick="down(this)">&#8595</button>
+        <button type="button"
+                onclick="this.parentNode.remove();">&times
+        </button>
+    </div>
+</div>
+<button type="button" class="item" onclick="create()">Добавить элемент</button>
+<br>
+<button type="button" class="item" onclick="save()">Cохранить</button>
+<p id="output" style="display: none"></p>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+p {
+    margin: 0;
+}
+
+.wracked > div {
+    display: flex;
+}
+
+.wracked > div > * {
+    margin: 0;
+}
