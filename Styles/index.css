@@ -3,11 +3,10 @@ p {
 }
 #wracked{
     margin:0;
-    display: flex;
 }
 #wracked > div {
-    display: flex;
     margin:0;
+    display: flex;
 }
 
 #wracked > div > * {
